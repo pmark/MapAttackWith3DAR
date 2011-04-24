@@ -160,6 +160,12 @@ deadRadius;
     if (!isDPad) 
     {
         self.thumb = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"84_white_topnotch.png"]];
+        
+        if (!self.thumb)
+        {
+            NSLog(@"Missing joystick image: 84_white_topnotch.png");            
+        }
+        
         thumb.backgroundColor = [UIColor clearColor];
         thumb.hidden = NO;
         thumb.center = self.center;

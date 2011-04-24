@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "GameViewController.h"
 
 
 @implementation RootViewController
@@ -65,7 +66,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return 1;
 }
 
 
@@ -79,7 +80,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-	// Configure the cell.
+	cell.textLabel.text = @"WhereCamp 2011, Stanford";
 
     return cell;
 }
@@ -128,15 +129,11 @@
 #pragma mark -
 #pragma mark Table view delegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
+{    
+    GameViewController *c = [GameViewController new];    
+    [self.navigationController pushViewController:c animated:YES];
+    [c release];
 }
 
 

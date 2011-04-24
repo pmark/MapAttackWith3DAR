@@ -76,6 +76,7 @@ typedef NSObject<SM3DAR_PointProtocol> SM3DAR_Point;
 @property (nonatomic, retain) UIView *containerView;
 @property (nonatomic, retain) MarkerCalloutView *calloutView;
 @property (nonatomic, retain) UIView *hudView;
+@property (nonatomic, retain) SM3DAR_Controller *sm3dar;
 
 - (void) init3DAR;
 - (void) add3darContainer:(SM3DAR_Controller *)sm3dar;
@@ -157,6 +158,7 @@ typedef struct
 @property (nonatomic, assign) CGFloat screenOrientationRadians;
 @property (nonatomic, retain) UIView *glView;
 @property (nonatomic, retain) UIView *hudView;
+@property (nonatomic, retain) UIView *compassView;
 @property (nonatomic, assign) CGFloat nearClipMeters;
 @property (nonatomic, assign) CGFloat farClipMeters;
 @property (assign) NSTimeInterval locationUpdateInterval;

@@ -15,11 +15,60 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		A617AB5A1362D4780029D199 /* lib3DAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A617AB591362D4780029D199 /* lib3DAR.a */; };
 		A648DBDF1362BC8B00BC529E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A648DBDE1362BC8B00BC529E /* CoreLocation.framework */; };
 		A648DBE11362BC8B00BC529E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A648DBE01362BC8B00BC529E /* CoreMotion.framework */; };
 		A648DBE31362BC8B00BC529E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A648DBE21362BC8B00BC529E /* MapKit.framework */; };
 		A648DBE51362BC8B00BC529E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A648DBE41362BC8B00BC529E /* OpenGLES.framework */; };
 		A648DBE71362BC8B00BC529E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A648DBE61362BC8B00BC529E /* QuartzCore.framework */; };
+		A648DC661362BCCF00BC529E /* 3dar.plist in Resources */ = {isa = PBXBuildFile; fileRef = A648DC331362BCCF00BC529E /* 3dar.plist */; };
+		A648DC671362BCCF00BC529E /* 3dar_logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC341362BCCF00BC529E /* 3dar_logo copy.png */; };
+		A648DC681362BCCF00BC529E /* 3dar_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A648DC351362BCCF00BC529E /* 3dar_logo.jpg */; };
+		A648DC691362BCCF00BC529E /* 3dar_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC361362BCCF00BC529E /* 3dar_logo.png */; };
+		A648DC6A1362BCCF00BC529E /* 3dar_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC371362BCCF00BC529E /* 3dar_logo@2x.png */; };
+		A648DC6B1362BCCF00BC529E /* 3dar_marker_icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC381362BCCF00BC529E /* 3dar_marker_icon1.png */; };
+		A648DC6C1362BCCF00BC529E /* bubble1.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC391362BCCF00BC529E /* bubble1.png */; };
+		A648DC6D1362BCCF00BC529E /* compass_rose.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC3A1362BCCF00BC529E /* compass_rose.png */; };
+		A648DC6E1362BCCF00BC529E /* Icon_3dar.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC3B1362BCCF00BC529E /* Icon_3dar.png */; };
+		A648DC6F1362BCCF00BC529E /* Joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DC3D1362BCCF00BC529E /* Joystick.m */; };
+		A648DC701362BCCF00BC529E /* blue.mtl in Resources */ = {isa = PBXBuildFile; fileRef = A648DC3F1362BCCF00BC529E /* blue.mtl */; };
+		A648DC711362BCCF00BC529E /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC401362BCCF00BC529E /* blue.png */; };
+		A648DC721362BCCF00BC529E /* cube.obj in Resources */ = {isa = PBXBuildFile; fileRef = A648DC411362BCCF00BC529E /* cube.obj */; };
+		A648DC731362BCCF00BC529E /* flag_ufo.obj in Resources */ = {isa = PBXBuildFile; fileRef = A648DC421362BCCF00BC529E /* flag_ufo.obj */; };
+		A648DC741362BCCF00BC529E /* moebius.obj in Resources */ = {isa = PBXBuildFile; fileRef = A648DC431362BCCF00BC529E /* moebius.obj */; };
+		A648DC751362BCCF00BC529E /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC441362BCCF00BC529E /* red.png */; };
+		A648DC761362BCCF00BC529E /* star.obj in Resources */ = {isa = PBXBuildFile; fileRef = A648DC451362BCCF00BC529E /* star.obj */; };
+		A648DC781362BCCF00BC529E /* music_icon copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC481362BCCF00BC529E /* music_icon copy 2.png */; };
+		A648DC791362BCCF00BC529E /* music_icon copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC491362BCCF00BC529E /* music_icon copy.png */; };
+		A648DC7A1362BCCF00BC529E /* music_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC4A1362BCCF00BC529E /* music_icon.png */; };
+		A648DC7B1362BCCF00BC529E /* music_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC4B1362BCCF00BC529E /* music_icon@2x.png */; };
+		A648DC7C1362BCCF00BC529E /* music_icon_focused.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC4C1362BCCF00BC529E /* music_icon_focused.png */; };
+		A648DC7D1362BCCF00BC529E /* music_icon_focused@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC4D1362BCCF00BC529E /* music_icon_focused@2x.png */; };
+		A648DC7E1362BCCF00BC529E /* OBJView.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DC4F1362BCCF00BC529E /* OBJView.m */; };
+		A648DC7F1362BCCF00BC529E /* pano_bg copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC501362BCCF00BC529E /* pano_bg copy 2.png */; };
+		A648DC801362BCCF00BC529E /* pano_bg copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC511362BCCF00BC529E /* pano_bg copy.png */; };
+		A648DC811362BCCF00BC529E /* pano_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC521362BCCF00BC529E /* pano_bg.png */; };
+		A648DC841362BCCF00BC529E /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DC571362BCCF00BC529E /* sky.png */; };
+		A648DC851362BCCF00BC529E /* SM3DAR_keys.txt in Resources */ = {isa = PBXBuildFile; fileRef = A648DC591362BCCF00BC529E /* SM3DAR_keys.txt */; };
+		A648DC861362BCCF00BC529E /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = A648DC5A1362BCCF00BC529E /* sphere.obj */; };
+		A648DC871362BCCF00BC529E /* BSJSONEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DC5D1362BCCF00BC529E /* BSJSONEncoder.m */; };
+		A648DC881362BCCF00BC529E /* NSArray+BSJSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DC5F1362BCCF00BC529E /* NSArray+BSJSONAdditions.m */; };
+		A648DC891362BCCF00BC529E /* NSDictionary+BSJSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DC611362BCCF00BC529E /* NSDictionary+BSJSONAdditions.m */; };
+		A648DC8A1362BCCF00BC529E /* NSScanner+BSJSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DC631362BCCF00BC529E /* NSScanner+BSJSONAdditions.m */; };
+		A648DC8B1362BCCF00BC529E /* NSString+BSJSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DC651362BCCF00BC529E /* NSString+BSJSONAdditions.m */; };
+		A648DC911362BD9C00BC529E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DC8F1362BD9C00BC529E /* GameViewController.m */; };
+		A648DC921362BD9C00BC529E /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A648DC901362BD9C00BC529E /* GameViewController.xib */; };
+		A648DCC01362C0E300BC529E /* CGPointUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DCBF1362C0E300BC529E /* CGPointUtil.m */; };
+		A648DCD31362C1ED00BC529E /* MapAttackPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DCD01362C1ED00BC529E /* MapAttackPlace.m */; };
+		A648DCD41362C1ED00BC529E /* MapAttackPlace3D.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DCD21362C1ED00BC529E /* MapAttackPlace3D.m */; };
+		A648DD081362C46000BC529E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DD041362C46000BC529E /* Icon.png */; };
+		A648DD091362C46000BC529E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DD051362C46000BC529E /* Icon@2x.png */; };
+		A648DD0A1362C46000BC529E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DD061362C46000BC529E /* Default.png */; };
+		A648DD0B1362C46000BC529E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DD071362C46000BC529E /* Default@2x.png */; };
+		A648DD101362C50800BC529E /* BirdseyeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A648DD0F1362C50800BC529E /* BirdseyeView.m */; };
+		A648DD851362CA8900BC529E /* 84_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DD831362CA8900BC529E /* 84_white.png */; };
+		A648DD861362CA8900BC529E /* 128_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DD841362CA8900BC529E /* 128_white.png */; };
+		A648DDFA1362D0E200BC529E /* 84_white_topnotch.png in Resources */ = {isa = PBXBuildFile; fileRef = A648DDF91362D0E200BC529E /* 84_white_topnotch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,11 +85,73 @@
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MapAttack-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MapAttack-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A617AB591362D4780029D199 /* lib3DAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib3DAR.a; path = "../../Library/iOS/build/Debug-iphoneos/lib3DAR.a"; sourceTree = SOURCE_ROOT; };
 		A648DBDE1362BC8B00BC529E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A648DBE01362BC8B00BC529E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		A648DBE21362BC8B00BC529E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A648DBE41362BC8B00BC529E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		A648DBE61362BC8B00BC529E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A648DC331362BCCF00BC529E /* 3dar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3dar.plist; sourceTree = "<group>"; };
+		A648DC341362BCCF00BC529E /* 3dar_logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3dar_logo copy.png"; sourceTree = "<group>"; };
+		A648DC351362BCCF00BC529E /* 3dar_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3dar_logo.jpg; sourceTree = "<group>"; };
+		A648DC361362BCCF00BC529E /* 3dar_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3dar_logo.png; sourceTree = "<group>"; };
+		A648DC371362BCCF00BC529E /* 3dar_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3dar_logo@2x.png"; sourceTree = "<group>"; };
+		A648DC381362BCCF00BC529E /* 3dar_marker_icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3dar_marker_icon1.png; sourceTree = "<group>"; };
+		A648DC391362BCCF00BC529E /* bubble1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble1.png; sourceTree = "<group>"; };
+		A648DC3A1362BCCF00BC529E /* compass_rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass_rose.png; sourceTree = "<group>"; };
+		A648DC3B1362BCCF00BC529E /* Icon_3dar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_3dar.png; sourceTree = "<group>"; };
+		A648DC3C1362BCCF00BC529E /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
+		A648DC3D1362BCCF00BC529E /* Joystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joystick.m; sourceTree = "<group>"; };
+		A648DC3F1362BCCF00BC529E /* blue.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blue.mtl; sourceTree = "<group>"; };
+		A648DC401362BCCF00BC529E /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		A648DC411362BCCF00BC529E /* cube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.obj; sourceTree = "<group>"; };
+		A648DC421362BCCF00BC529E /* flag_ufo.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = flag_ufo.obj; sourceTree = "<group>"; };
+		A648DC431362BCCF00BC529E /* moebius.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moebius.obj; sourceTree = "<group>"; };
+		A648DC441362BCCF00BC529E /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		A648DC451362BCCF00BC529E /* star.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = star.obj; sourceTree = "<group>"; };
+		A648DC481362BCCF00BC529E /* music_icon copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music_icon copy 2.png"; sourceTree = "<group>"; };
+		A648DC491362BCCF00BC529E /* music_icon copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music_icon copy.png"; sourceTree = "<group>"; };
+		A648DC4A1362BCCF00BC529E /* music_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_icon.png; sourceTree = "<group>"; };
+		A648DC4B1362BCCF00BC529E /* music_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music_icon@2x.png"; sourceTree = "<group>"; };
+		A648DC4C1362BCCF00BC529E /* music_icon_focused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_icon_focused.png; sourceTree = "<group>"; };
+		A648DC4D1362BCCF00BC529E /* music_icon_focused@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music_icon_focused@2x.png"; sourceTree = "<group>"; };
+		A648DC4E1362BCCF00BC529E /* OBJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJView.h; sourceTree = "<group>"; };
+		A648DC4F1362BCCF00BC529E /* OBJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBJView.m; sourceTree = "<group>"; };
+		A648DC501362BCCF00BC529E /* pano_bg copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pano_bg copy 2.png"; sourceTree = "<group>"; };
+		A648DC511362BCCF00BC529E /* pano_bg copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pano_bg copy.png"; sourceTree = "<group>"; };
+		A648DC521362BCCF00BC529E /* pano_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pano_bg.png; sourceTree = "<group>"; };
+		A648DC571362BCCF00BC529E /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
+		A648DC581362BCCF00BC529E /* SM3DAR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SM3DAR.h; sourceTree = "<group>"; };
+		A648DC591362BCCF00BC529E /* SM3DAR_keys.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SM3DAR_keys.txt; sourceTree = "<group>"; };
+		A648DC5A1362BCCF00BC529E /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		A648DC5C1362BCCF00BC529E /* BSJSONEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSJSONEncoder.h; sourceTree = "<group>"; };
+		A648DC5D1362BCCF00BC529E /* BSJSONEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSJSONEncoder.m; sourceTree = "<group>"; };
+		A648DC5E1362BCCF00BC529E /* NSArray+BSJSONAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BSJSONAdditions.h"; sourceTree = "<group>"; };
+		A648DC5F1362BCCF00BC529E /* NSArray+BSJSONAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BSJSONAdditions.m"; sourceTree = "<group>"; };
+		A648DC601362BCCF00BC529E /* NSDictionary+BSJSONAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BSJSONAdditions.h"; sourceTree = "<group>"; };
+		A648DC611362BCCF00BC529E /* NSDictionary+BSJSONAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BSJSONAdditions.m"; sourceTree = "<group>"; };
+		A648DC621362BCCF00BC529E /* NSScanner+BSJSONAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+BSJSONAdditions.h"; sourceTree = "<group>"; };
+		A648DC631362BCCF00BC529E /* NSScanner+BSJSONAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner+BSJSONAdditions.m"; sourceTree = "<group>"; };
+		A648DC641362BCCF00BC529E /* NSString+BSJSONAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BSJSONAdditions.h"; sourceTree = "<group>"; };
+		A648DC651362BCCF00BC529E /* NSString+BSJSONAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BSJSONAdditions.m"; sourceTree = "<group>"; };
+		A648DC8E1362BD9C00BC529E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		A648DC8F1362BD9C00BC529E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		A648DC901362BD9C00BC529E /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		A648DCBE1362C0E300BC529E /* CGPointUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointUtil.h; sourceTree = "<group>"; };
+		A648DCBF1362C0E300BC529E /* CGPointUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPointUtil.m; sourceTree = "<group>"; };
+		A648DCCF1362C1ED00BC529E /* MapAttackPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAttackPlace.h; sourceTree = "<group>"; };
+		A648DCD01362C1ED00BC529E /* MapAttackPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAttackPlace.m; sourceTree = "<group>"; };
+		A648DCD11362C1ED00BC529E /* MapAttackPlace3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAttackPlace3D.h; sourceTree = "<group>"; };
+		A648DCD21362C1ED00BC529E /* MapAttackPlace3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAttackPlace3D.m; sourceTree = "<group>"; };
+		A648DD041362C46000BC529E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A648DD051362C46000BC529E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A648DD061362C46000BC529E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A648DD071362C46000BC529E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A648DD0E1362C50800BC529E /* BirdseyeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdseyeView.h; sourceTree = "<group>"; };
+		A648DD0F1362C50800BC529E /* BirdseyeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdseyeView.m; sourceTree = "<group>"; };
+		A648DD831362CA8900BC529E /* 84_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 84_white.png; sourceTree = "<group>"; };
+		A648DD841362CA8900BC529E /* 128_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128_white.png; sourceTree = "<group>"; };
+		A648DDF91362D0E200BC529E /* 84_white_topnotch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 84_white_topnotch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +167,7 @@
 				A648DBE31362BC8B00BC529E /* MapKit.framework in Frameworks */,
 				A648DBE51362BC8B00BC529E /* OpenGLES.framework in Frameworks */,
 				A648DBE71362BC8B00BC529E /* QuartzCore.framework in Frameworks */,
+				A617AB5A1362D4780029D199 /* lib3DAR.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,10 +177,17 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
-				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				A648DC8E1362BD9C00BC529E /* GameViewController.h */,
+				A648DC8F1362BD9C00BC529E /* GameViewController.m */,
+				A648DC901362BD9C00BC529E /* GameViewController.xib */,
+				A648DCCF1362C1ED00BC529E /* MapAttackPlace.h */,
+				A648DCD01362C1ED00BC529E /* MapAttackPlace.m */,
+				A648DCD11362C1ED00BC529E /* MapAttackPlace3D.h */,
+				A648DCD21362C1ED00BC529E /* MapAttackPlace3D.m */,
 				1D3623240D0F684500981E51 /* MapAttackAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MapAttackAppDelegate.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -84,6 +203,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				A648DC311362BCCF00BC529E /* Lib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -105,6 +225,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A648DD041362C46000BC529E /* Icon.png */,
+				A648DD051362C46000BC529E /* Icon@2x.png */,
+				A648DD061362C46000BC529E /* Default.png */,
+				A648DD071362C46000BC529E /* Default@2x.png */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MapAttack-Info.plist */,
@@ -125,6 +249,88 @@
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A648DC311362BCCF00BC529E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A648DC321362BCCF00BC529E /* 3DAR */,
+				A648DC5B1362BCCF00BC529E /* BSJSONAdditions */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A648DC321362BCCF00BC529E /* 3DAR */ = {
+			isa = PBXGroup;
+			children = (
+				A617AB591362D4780029D199 /* lib3DAR.a */,
+				A648DC331362BCCF00BC529E /* 3dar.plist */,
+				A648DC341362BCCF00BC529E /* 3dar_logo copy.png */,
+				A648DC351362BCCF00BC529E /* 3dar_logo.jpg */,
+				A648DC361362BCCF00BC529E /* 3dar_logo.png */,
+				A648DC371362BCCF00BC529E /* 3dar_logo@2x.png */,
+				A648DC381362BCCF00BC529E /* 3dar_marker_icon1.png */,
+				A648DD831362CA8900BC529E /* 84_white.png */,
+				A648DDF91362D0E200BC529E /* 84_white_topnotch.png */,
+				A648DD841362CA8900BC529E /* 128_white.png */,
+				A648DC391362BCCF00BC529E /* bubble1.png */,
+				A648DD0E1362C50800BC529E /* BirdseyeView.h */,
+				A648DD0F1362C50800BC529E /* BirdseyeView.m */,
+				A648DC3A1362BCCF00BC529E /* compass_rose.png */,
+				A648DCBE1362C0E300BC529E /* CGPointUtil.h */,
+				A648DCBF1362C0E300BC529E /* CGPointUtil.m */,
+				A648DC3B1362BCCF00BC529E /* Icon_3dar.png */,
+				A648DC3C1362BCCF00BC529E /* Joystick.h */,
+				A648DC3D1362BCCF00BC529E /* Joystick.m */,
+				A648DC3E1362BCCF00BC529E /* MapAttack */,
+				A648DC481362BCCF00BC529E /* music_icon copy 2.png */,
+				A648DC491362BCCF00BC529E /* music_icon copy.png */,
+				A648DC4A1362BCCF00BC529E /* music_icon.png */,
+				A648DC4B1362BCCF00BC529E /* music_icon@2x.png */,
+				A648DC4C1362BCCF00BC529E /* music_icon_focused.png */,
+				A648DC4D1362BCCF00BC529E /* music_icon_focused@2x.png */,
+				A648DC4E1362BCCF00BC529E /* OBJView.h */,
+				A648DC4F1362BCCF00BC529E /* OBJView.m */,
+				A648DC501362BCCF00BC529E /* pano_bg copy 2.png */,
+				A648DC511362BCCF00BC529E /* pano_bg copy.png */,
+				A648DC521362BCCF00BC529E /* pano_bg.png */,
+				A648DC571362BCCF00BC529E /* sky.png */,
+				A648DC581362BCCF00BC529E /* SM3DAR.h */,
+				A648DC591362BCCF00BC529E /* SM3DAR_keys.txt */,
+				A648DC5A1362BCCF00BC529E /* sphere.obj */,
+			);
+			path = 3DAR;
+			sourceTree = "<group>";
+		};
+		A648DC3E1362BCCF00BC529E /* MapAttack */ = {
+			isa = PBXGroup;
+			children = (
+				A648DC3F1362BCCF00BC529E /* blue.mtl */,
+				A648DC401362BCCF00BC529E /* blue.png */,
+				A648DC411362BCCF00BC529E /* cube.obj */,
+				A648DC421362BCCF00BC529E /* flag_ufo.obj */,
+				A648DC431362BCCF00BC529E /* moebius.obj */,
+				A648DC441362BCCF00BC529E /* red.png */,
+				A648DC451362BCCF00BC529E /* star.obj */,
+			);
+			path = MapAttack;
+			sourceTree = "<group>";
+		};
+		A648DC5B1362BCCF00BC529E /* BSJSONAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				A648DC5C1362BCCF00BC529E /* BSJSONEncoder.h */,
+				A648DC5D1362BCCF00BC529E /* BSJSONEncoder.m */,
+				A648DC5E1362BCCF00BC529E /* NSArray+BSJSONAdditions.h */,
+				A648DC5F1362BCCF00BC529E /* NSArray+BSJSONAdditions.m */,
+				A648DC601362BCCF00BC529E /* NSDictionary+BSJSONAdditions.h */,
+				A648DC611362BCCF00BC529E /* NSDictionary+BSJSONAdditions.m */,
+				A648DC621362BCCF00BC529E /* NSScanner+BSJSONAdditions.h */,
+				A648DC631362BCCF00BC529E /* NSScanner+BSJSONAdditions.m */,
+				A648DC641362BCCF00BC529E /* NSString+BSJSONAdditions.h */,
+				A648DC651362BCCF00BC529E /* NSString+BSJSONAdditions.m */,
+			);
+			path = BSJSONAdditions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +385,42 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				A648DC661362BCCF00BC529E /* 3dar.plist in Resources */,
+				A648DC671362BCCF00BC529E /* 3dar_logo copy.png in Resources */,
+				A648DC681362BCCF00BC529E /* 3dar_logo.jpg in Resources */,
+				A648DC691362BCCF00BC529E /* 3dar_logo.png in Resources */,
+				A648DC6A1362BCCF00BC529E /* 3dar_logo@2x.png in Resources */,
+				A648DC6B1362BCCF00BC529E /* 3dar_marker_icon1.png in Resources */,
+				A648DC6C1362BCCF00BC529E /* bubble1.png in Resources */,
+				A648DC6D1362BCCF00BC529E /* compass_rose.png in Resources */,
+				A648DC6E1362BCCF00BC529E /* Icon_3dar.png in Resources */,
+				A648DC701362BCCF00BC529E /* blue.mtl in Resources */,
+				A648DC711362BCCF00BC529E /* blue.png in Resources */,
+				A648DC721362BCCF00BC529E /* cube.obj in Resources */,
+				A648DC731362BCCF00BC529E /* flag_ufo.obj in Resources */,
+				A648DC741362BCCF00BC529E /* moebius.obj in Resources */,
+				A648DC751362BCCF00BC529E /* red.png in Resources */,
+				A648DC761362BCCF00BC529E /* star.obj in Resources */,
+				A648DC781362BCCF00BC529E /* music_icon copy 2.png in Resources */,
+				A648DC791362BCCF00BC529E /* music_icon copy.png in Resources */,
+				A648DC7A1362BCCF00BC529E /* music_icon.png in Resources */,
+				A648DC7B1362BCCF00BC529E /* music_icon@2x.png in Resources */,
+				A648DC7C1362BCCF00BC529E /* music_icon_focused.png in Resources */,
+				A648DC7D1362BCCF00BC529E /* music_icon_focused@2x.png in Resources */,
+				A648DC7F1362BCCF00BC529E /* pano_bg copy 2.png in Resources */,
+				A648DC801362BCCF00BC529E /* pano_bg copy.png in Resources */,
+				A648DC811362BCCF00BC529E /* pano_bg.png in Resources */,
+				A648DC841362BCCF00BC529E /* sky.png in Resources */,
+				A648DC851362BCCF00BC529E /* SM3DAR_keys.txt in Resources */,
+				A648DC861362BCCF00BC529E /* sphere.obj in Resources */,
+				A648DC921362BD9C00BC529E /* GameViewController.xib in Resources */,
+				A648DD081362C46000BC529E /* Icon.png in Resources */,
+				A648DD091362C46000BC529E /* Icon@2x.png in Resources */,
+				A648DD0A1362C46000BC529E /* Default.png in Resources */,
+				A648DD0B1362C46000BC529E /* Default@2x.png in Resources */,
+				A648DD851362CA8900BC529E /* 84_white.png in Resources */,
+				A648DD861362CA8900BC529E /* 128_white.png in Resources */,
+				A648DDFA1362D0E200BC529E /* 84_white_topnotch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +434,18 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* MapAttackAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				A648DC6F1362BCCF00BC529E /* Joystick.m in Sources */,
+				A648DC7E1362BCCF00BC529E /* OBJView.m in Sources */,
+				A648DC871362BCCF00BC529E /* BSJSONEncoder.m in Sources */,
+				A648DC881362BCCF00BC529E /* NSArray+BSJSONAdditions.m in Sources */,
+				A648DC891362BCCF00BC529E /* NSDictionary+BSJSONAdditions.m in Sources */,
+				A648DC8A1362BCCF00BC529E /* NSScanner+BSJSONAdditions.m in Sources */,
+				A648DC8B1362BCCF00BC529E /* NSString+BSJSONAdditions.m in Sources */,
+				A648DC911362BD9C00BC529E /* GameViewController.m in Sources */,
+				A648DCC01362C0E300BC529E /* CGPointUtil.m in Sources */,
+				A648DCD31362C1ED00BC529E /* MapAttackPlace.m in Sources */,
+				A648DCD41362C1ED00BC529E /* MapAttackPlace3D.m in Sources */,
+				A648DD101362C50800BC529E /* BirdseyeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +462,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MapAttack_Prefix.pch;
 				INFOPLIST_FILE = "MapAttack-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/iOS/build/Debug-iphoneos\"",
+				);
 				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = MapAttack;
 			};
@@ -221,6 +479,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MapAttack_Prefix.pch;
 				INFOPLIST_FILE = "MapAttack-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/iOS/build/Debug-iphoneos\"",
+				);
 				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = MapAttack;
 				VALIDATE_PRODUCT = YES;
