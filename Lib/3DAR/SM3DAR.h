@@ -1,5 +1,5 @@
 /*
- *  3DAR Mapping Version 1.0 API
+ *  3DAR Mapping Version 0.9.1 API
  *
  *  SM3DAR.h
  *
